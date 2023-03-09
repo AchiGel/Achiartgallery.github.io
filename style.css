@@ -317,7 +317,7 @@ footer ul li img:hover {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .face {
     margin: 0;
     background: none;
