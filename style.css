@@ -4,7 +4,6 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  overflow: hidden;
 }
 
 .face {
@@ -48,6 +47,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   z-index: 1;
+  max-width: fit-content;
 }
 
 .face p {
@@ -252,6 +252,7 @@ footer ul li img:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 1;
+    max-width: fit-content;
   }
 
   .face .btn {
@@ -278,7 +279,7 @@ footer ul li img:hover {
   }
   .one {
     width: 280px;
-    height: 396px;
+    height: fit-content;
   }
   .one h1 {
     font-size: 50px;
